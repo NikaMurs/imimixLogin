@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapperHeader{
+    background-color: #767676;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoHeader{
+    padding-left: 375px;
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.09);
+    text-transform: uppercase;
+}
+
+.helpHeader{
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F0F0F0;
+    padding-right: 375px;
+    text-decoration: none;
+}
+
+.loginMain{
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-image: url(../image/loginBG.png);
+    background-size: cover;
+    background-position: 0;
+    min-height: 600px;
+}
+
+.loginCenter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginWrapper{
+    display: inline-block;
+    padding: 45px 45px;
+    background-color: #FFFFFF;
+}
+
+.loginWindow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+}
+
+.loginTitle{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.075em;
+    color: #737373;
+}
+
+.formLogin{
+    width: 300px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.loginInput{
+    width: 100%;
+    box-sizing: border-box;
+    height: 55px;
+    border: 2px solid #989898;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Manrope';
+    font-size: 14px;
+    color: black;
+    text-align: center;
+}
+
+.loginInput::placeholder{
+    color: #989898;
+}
+
+.loginInput:nth-child(n+2){
+   margin-top: 35px;
+}
+
+.loginButtonWraper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loginButton{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #33A2F2;
+    color: #FFFFFF;
+    padding: 20px 70px;
+    border: solid 1px #33A2F2;;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.loginButton:hover{
+    background-color: #FFFFFF;
+    color: #33A2F2;
+    border: solid 1px #9a9a9a;
+}
+
+.registrateMain{
+    width: 100%;
+    height: calc(100vh - 65px);
+    background-image: url(../image/registrateBG.png);
+    background-size: cover;
+    background-position: 0;
+    min-height: 900px;
+}
+
+.registrateCenter{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.registrateWrapper{
+    display: inline-block;
+    padding: 45px 45px;
+    background-color: #FFFFFF;
+}
+
+.registrateWindow{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 600px;
+    height: 700px;
+}
+
+.registrateTitle{
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    letter-spacing: 0.075em;
+    color: #737373;
+}
+
+.registrateAtt{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    color: #E00000;
+    width: 100%;
+    text-align: center;
+}
+
+.registrateAttText{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+    margin: 0;
+}
+
+.formRegistrate{
+    width: 400px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.registrateInput{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #9C9B9B;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+.registrateInput::placeholder{
+    color: #9C9B9B
+}
+
+.registrateInput:nth-child(n+2){
+    margin-top: 20px;
+}
+
+.formAtt{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    width: 400px;
+    text-align: center;
+    color: #B8B8B8;
+}
+
+.formAtt span{
+    color: black;
+}
+
+.phoneIcon{
+    background-image: url(../icon/phone.svg);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 20px 0px;
+}
+
+.registrateInput:focus{
+    outline: none
+}
+
+.agreementCheckbox{
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.agreementLabel {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9E9E9E;
+  }
+
+.agreementLabel::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: solid 1px #878787;
+    margin-right: 10px;
+}
+
+.agreementCheckbox:checked+label::before {
+    background-image: url(../icon/mark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.agreementText{
+    width: 400px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #9E9E9E;
+    text-align: center;
+}
+
+.agreementText a{
+    color:#33A2F2;
+}
+
+.registrateButtonWraper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.registrateButton{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #33A2F2;
+    color: #FFFFFF;
+    padding: 20px 70px;
+    border: solid 1px #33A2F2;;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.registrateButton:hover{
+    background-color: #FFFFFF;
+    color: #33A2F2;
+    border: solid 1px #9a9a9a;
+}
+
+.confirmText{
+    width: 100%;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.confirmButtonWraper{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 110px;
+    margin-bottom: 320px;
+}
+
+
+.greenButton{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #009E10;
+    color: #FFFFFF;
+    padding: 20px 70px;
+    border: solid 1px #009E10;;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.greenButton:hover{
+    background-color: #FFFFFF;
+    color: #009E10;
+    border: solid 1px #9a9a9a;
+}
+
+.blueButton{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #33A2F2;
+    color: #FFFFFF;
+    padding: 20px 70px;
+    border: solid 1px #33A2F2;;
+    border-radius: 5px;
+    transition: .2s;
+}
+
+.blueButton:hover{
+    background-color: #FFFFFF;
+    color: #33A2F2;
+    border: solid 1px #9a9a9a;
+}
+
+.SMSReady{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    color:#33A2F2;
+    text-transform: uppercase;
+    margin-top: 55px;
+}
+
+.SMSPhone{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color:#858585;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-bottom: solid 1px #858585;
+}
+
+.SMSText{
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    width: 70%;
+    text-align: center;
+    color:#858585;
+}
+
+.SMSBoxs{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 210px;
+}
+
+.SMSBox{
+    width: 55px;
+    height: 69px;
+    background-color: #D9D9D9;
+    border: solid 1px #B3B3B3;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+
+.hide{
+    display: none;
+}
